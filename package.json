@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-plugin-redirect-to",
+  "version": "1.0.0",
+  "description": "Create redirects for your Gatsby blog from Markdown frontmatter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "redirect"
+  ],
+  "author": "Michael Heap <m@michaelheap.com>",
+  "license": "MIT"
+}
