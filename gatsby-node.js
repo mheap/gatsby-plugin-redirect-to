@@ -5,7 +5,7 @@ async function onCreateNode({ actions, node, getNode }, options) {
     if (node.frontmatter.redirect) {
       let from;
       // Where are we redirecting from?
-      if (node.fields && node.field.slug) {
+      if (node.fields && node.fields.slug) {
         // if there's already a slug, use that value
         from = node.fields.slug;
       } else {
