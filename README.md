@@ -22,7 +22,7 @@ npm install --save gatsby-plugin-redirect-to
 Then include the plugin in `gatsby-config.js` _before_ `gatsby-transformer-remark`
 
 ```javascript
-plugins: ["gatsby-redirect-to"];
+plugins: ["gatsby-plugin-redirect-to"];
 ```
 
 > This plugin will **not** work locally by default. You will need to enable the `redirectInBrowser` option to enable local redirects
